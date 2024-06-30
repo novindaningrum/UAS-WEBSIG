@@ -1,0 +1,740 @@
+INFO - 2024-06-20 06:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 06:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:14:55 --> ErrorException: Undefined property: stdClass::$alamat_pondoko
+in APPPATH\Views\sekolah\tampil.php on line 48.
+ 1 APPPATH\Views\sekolah\tampil.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$alamat_pondoko', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(17): view('sekolah/tampil', [...])
+ 6 APPPATH\Controllers\Sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:15:04 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\tampil.php on line 52.
+ 1 APPPATH\Views\sekolah\tampil.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(17): view('sekolah/tampil', [...])
+ 6 APPPATH\Controllers\Sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:15:05 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\tampil.php on line 52.
+ 1 APPPATH\Views\sekolah\tampil.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(17): view('sekolah/tampil', [...])
+ 6 APPPATH\Controllers\Sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:15:06 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\tampil.php on line 52.
+ 1 APPPATH\Views\sekolah\tampil.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(17): view('sekolah/tampil', [...])
+ 6 APPPATH\Controllers\Sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:25:00 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Sekolah.php on line 31.
+ 1 APPPATH\Controllers\Sekolah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:25:01 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Sekolah.php on line 31.
+ 1 APPPATH\Controllers\Sekolah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:25:17 --> ErrorException: Undefined variable $npps
+in APPPATH\Views\sekolah\tambah.php on line 40.
+ 1 APPPATH\Views\sekolah\tambah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npps', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tambah.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tambah', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(40): view('sekolah/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:25:18 --> ErrorException: Undefined variable $npps
+in APPPATH\Views\sekolah\tambah.php on line 40.
+ 1 APPPATH\Views\sekolah\tambah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npps', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tambah.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tambah', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(40): view('sekolah/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:25:53 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\edit.php on line 40.
+ 1 APPPATH\Views\sekolah\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:26:58 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\edit.php on line 40.
+ 1 APPPATH\Views\sekolah\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:26:59 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\edit.php on line 40.
+ 1 APPPATH\Views\sekolah\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:27:29 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\edit.php on line 40.
+ 1 APPPATH\Views\sekolah\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:28:15 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\sekolah\edit.php on line 40.
+ 1 APPPATH\Views\sekolah\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\websig\\app\\Views\\sekolah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:33:19 --> ErrorException: Undefined variable $npsn
+in APPPATH\Controllers\Sekolah.php on line 61.
+ 1 APPPATH\Controllers\Sekolah.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npsn', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:33:26 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Controllers\Dashboard.php on line 28.
+ 1 APPPATH\Controllers\Dashboard.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Dashboard.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:33:27 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Controllers\Dashboard.php on line 28.
+ 1 APPPATH\Controllers\Dashboard.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Dashboard.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:36:26 --> ErrorException: Undefined variable $npsn
+in APPPATH\Controllers\Sekolah.php on line 61.
+ 1 APPPATH\Controllers\Sekolah.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npsn', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:36:46 --> ErrorException: Undefined variable $npsn
+in APPPATH\Controllers\Sekolah.php on line 64.
+ 1 APPPATH\Controllers\Sekolah.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npsn', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:37:03 --> ErrorException: Undefined variable $npss
+in APPPATH\Controllers\Sekolah.php on line 64.
+ 1 APPPATH\Controllers\Sekolah.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npss', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:38:01 --> ErrorException: Undefined variable $npss
+in APPPATH\Controllers\Sekolah.php on line 64.
+ 1 APPPATH\Controllers\Sekolah.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npss', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:38:25 --> ErrorException: Undefined variable $npss
+in APPPATH\Controllers\Sekolah.php on line 64.
+ 1 APPPATH\Controllers\Sekolah.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npss', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:42:11 --> ErrorException: Undefined variable $npss
+in APPPATH\Controllers\Sekolah.php on line 64.
+ 1 APPPATH\Controllers\Sekolah.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npss', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Sekolah.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->edit('0')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 07:43:47 --> mysqli_sql_exception: Unknown column 'npsn' in 'field list' in C:\xampp\htdocs\websig\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\websig\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `sekolah...', 0)
+#1 C:\xampp\htdocs\websig\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `sekolah...')
+#2 C:\xampp\htdocs\websig\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `sekolah...')
+#3 C:\xampp\htdocs\websig\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah...', Array, false)
+#4 C:\xampp\htdocs\websig\system\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\websig\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\websig\system\Model.php(807): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\websig\app\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', Array)
+#8 C:\xampp\htdocs\websig\system\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+#9 C:\xampp\htdocs\websig\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#10 C:\xampp\htdocs\websig\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\websig\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-20 07:43:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'npsn' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah` SET `npsn` = :npsn:, `kode_kecamatan` = :kode_kecamatan:, `status` = :status:, `jenjang_pendidikan` = :jenjang_pendidikan:, `koordinat` = :koordinat:
+WHERE `sekolah`.`npps` IN :sekolah.npps:', [...], false)
+ 2 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:43:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'npsn' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah` SET `npsn` = :npsn:, `kode_kecamatan` = :kode_kecamatan:, `status` = :status:, `jenjang_pendidikan` = :jenjang_pendidikan:, `koordinat` = :koordinat:
+WHERE `sekolah`.`npps` IN :sekolah.npps:', [...], false)
+ 4 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:43:47 --> [Caused by] mysqli_sql_exception: Unknown column 'npsn' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah` SET `npsn` = :npsn:, `kode_kecamatan` = :kode_kecamatan:, `status` = :status:, `jenjang_pendidikan` = :jenjang_pendidikan:, `koordinat` = :koordinat:
+WHERE `sekolah`.`npps` IN :sekolah.npps:', [...], false)
+ 5 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-20 07:45:46 --> mysqli_sql_exception: Unknown column 'npsn' in 'field list' in C:\xampp\htdocs\websig\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\websig\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `sekolah...', 0)
+#1 C:\xampp\htdocs\websig\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `sekolah...')
+#2 C:\xampp\htdocs\websig\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `sekolah...')
+#3 C:\xampp\htdocs\websig\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah...', Array, false)
+#4 C:\xampp\htdocs\websig\system\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\websig\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\websig\system\Model.php(807): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\websig\app\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', Array)
+#8 C:\xampp\htdocs\websig\system\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+#9 C:\xampp\htdocs\websig\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#10 C:\xampp\htdocs\websig\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\websig\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-20 07:45:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'npsn' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah` SET `npsn` = :npsn:, `kode_kecamatan` = :kode_kecamatan:, `status` = :status:, `jenjang_pendidikan` = :jenjang_pendidikan:, `koordinat` = :koordinat:
+WHERE `sekolah`.`npps` IN :sekolah.npps:', [...], false)
+ 2 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:45:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'npsn' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah` SET `npsn` = :npsn:, `kode_kecamatan` = :kode_kecamatan:, `status` = :status:, `jenjang_pendidikan` = :jenjang_pendidikan:, `koordinat` = :koordinat:
+WHERE `sekolah`.`npps` IN :sekolah.npps:', [...], false)
+ 4 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:45:46 --> [Caused by] mysqli_sql_exception: Unknown column 'npsn' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `sekolah` SET `npsn` = NULL, `kode_kecamatan` = \'3302010\', `status` = NULL, `jenjang_pendidikan` = NULL, `koordinat` = \'-7.6153668163418695, 109.10759891240812\'
+WHERE `sekolah`.`npps` IN (\'0\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `sekolah` SET `npsn` = :npsn:, `kode_kecamatan` = :kode_kecamatan:, `status` = :status:, `jenjang_pendidikan` = :jenjang_pendidikan:, `koordinat` = :koordinat:
+WHERE `sekolah`.`npps` IN :sekolah.npps:', [...], false)
+ 5 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Sekolah.php(117): CodeIgniter\Model->update('0', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->update()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 07:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 07:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 07:59:27 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 290.
+ 1 SYSTEMPATH\Model.php(290): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Sekolah.php(82): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:00:34 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 290.
+ 1 SYSTEMPATH\Model.php(290): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Sekolah.php(82): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:03:28 --> Error: Class "App\Models\PondokModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:03:30 --> Error: Class "App\Models\PondokModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:03:58 --> Error: Class "App\Models\PondokModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:04:00 --> Error: Class "App\Models\PondokModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 08:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 08:12:55 --> Error: Class "App\Models\PondokModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 08:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 08:13:09 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:17 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:17 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:17 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:17 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:18 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:46 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:47 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:48 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 08:13:51 --> Error: Class "App\Models\SekolahModel" not found
+in APPPATH\Controllers\Dashboard.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 08:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 08:26:02 --> ArgumentCountError: Too few arguments to function App\Controllers\kecamatan::edit(), 0 passed in C:\xampp\htdocs\websig\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\kecamatan->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 08:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 08:29:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sekolah/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sekolah/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\Pondok.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\Pondok.php(7): App\Controllers\Pondok->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 08:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 08:29:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sekolah/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sekolah/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\Pondok.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\Pondok.php(7): App\Controllers\Pondok->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 08:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 08:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:22:52 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 290.
+ 1 SYSTEMPATH\Model.php(290): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 09:22:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pondok/tambah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pondok/tambah.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pondok/tambah', [], true)
+ 3 APPPATH\Controllers\Pondok.php(40): view('pondok/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 09:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:22:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pondok/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pondok/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pondok/tampil', [], true)
+ 3 APPPATH\Controllers\Pondok.php(17): view('pondok/tampil', [...])
+ 4 APPPATH\Controllers\Pondok.php(7): App\Controllers\Pondok->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 09:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:22:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pondok/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pondok/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pondok/tampil', [], true)
+ 3 APPPATH\Controllers\Pondok.php(17): view('pondok/tampil', [...])
+ 4 APPPATH\Controllers\Pondok.php(7): App\Controllers\Pondok->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 09:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:24:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pondok/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pondok/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pondok/tampil', [], true)
+ 3 APPPATH\Controllers\Pondok.php(17): view('pondok/tampil', [...])
+ 4 APPPATH\Controllers\Pondok.php(7): App\Controllers\Pondok->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 09:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:25:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pondok/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pondok/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pondok/tampil', [], true)
+ 3 APPPATH\Controllers\Pondok.php(17): view('pondok/tampil', [...])
+ 4 APPPATH\Controllers\Pondok.php(7): App\Controllers\Pondok->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 09:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:26:08 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 290.
+ 1 SYSTEMPATH\Model.php(290): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 09:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 09:29:59 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 290.
+ 1 SYSTEMPATH\Model.php(290): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 09:31:59 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 290.
+ 1 SYSTEMPATH\Model.php(290): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 09:32:00 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 290.
+ 1 SYSTEMPATH\Model.php(290): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 09:32:20 --> mysqli_sql_exception: Column 'status' cannot be null in C:\xampp\htdocs\websig\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\websig\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\websig\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\websig\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\websig\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\websig\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\websig\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\websig\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\websig\app\Controllers\Pondok.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\websig\system\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+#9 C:\xampp\htdocs\websig\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+#10 C:\xampp\htdocs\websig\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\websig\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-20 09:32:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (:npps:, :kode_kecamatan:, :nama_pondok:, :alamat_pondok:, :status:, :jenjang_pendidikan:, :koordinat:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 09:32:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (\'67856786\', \'3302020\', \'hjffgfhjk\', \'jkhjkh\', NULL, NULL, \'-7.530143572637264, 109.02203088535803\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (\'67856786\', \'3302020\', \'hjffgfhjk\', \'jkhjkh\', NULL, NULL, \'-7.530143572637264, 109.02203088535803\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (:npps:, :kode_kecamatan:, :nama_pondok:, :alamat_pondok:, :status:, :jenjang_pendidikan:, :koordinat:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 09:32:20 --> [Caused by] mysqli_sql_exception: Column 'status' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (\'67856786\', \'3302020\', \'hjffgfhjk\', \'jkhjkh\', NULL, NULL, \'-7.530143572637264, 109.02203088535803\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (\'67856786\', \'3302020\', \'hjffgfhjk\', \'jkhjkh\', NULL, NULL, \'-7.530143572637264, 109.02203088535803\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (\'67856786\', \'3302020\', \'hjffgfhjk\', \'jkhjkh\', NULL, NULL, \'-7.530143572637264, 109.02203088535803\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sekolah` (`npps`, `kode_kecamatan`, `nama_pondok`, `alamat_pondok`, `status`, `jenjang_pendidikan`, `koordinat`) VALUES (:npps:, :kode_kecamatan:, :nama_pondok:, :alamat_pondok:, :status:, :jenjang_pendidikan:, :koordinat:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pondok.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pondok->simpan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondok))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-20 09:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 09:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 14:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
